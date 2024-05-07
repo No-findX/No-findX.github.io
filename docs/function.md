@@ -77,6 +77,47 @@ $$|x-2|\leq \frac{\epsilon}{13},|y-1|\leq \frac{\epsilon}{13}$$
 
 </details>
 
+<details>
+<summary>求证：
+
+$$lim_{(x,y)\to (0,0)}\frac{xy^2}{x^2+y^2}=0$$
+
+</summary>
+可以通过基本不等式做即
+
+$$x^2+y^2\geq 2|xy|$$
+
+也可以通过极坐标变换
+
+$$0\leq \frac{xy^2}{x^2+y^2}\leq \frac{|rcos\theta r^2sin^2 \theta|}{r^2}\leq |r|$$
+
+</details>
+
+### **多元函数极限存在的充要条件**   
+极限$lim_{P\to P_0}f(P)$存在$\longleftrightarrow$对D的任意子集E，只要$P_0$时E的聚点，必有$lim_{P\to P_0}f(P)=A$   
+
+<details>
+<summary><font color = red>e.g.</font>
+
+$$f(x)=\begin{cases}
+\frac{xy^2}{x+y} & (x,y)\not=(0,0)\\
+0 & (x,y)=(0,0)
+\end{cases}$$
+
+</summary>
+取
+
+$$x+y=ky^n$$
+
+很容易得到极限不存在。
+但是下面下面解法是错误的
+
+$$|xy|\leq \frac{1}{4}(x+y)^2,\frac{xy^2}{x+y}\leq \frac{1}{4}|y(x+y)|=0$$
+
+原因，第一步添加绝对值导致错误
+</details>
+
+
 ## <b>全微分</b>:  
 设y=f(x<sub>1</sub>,x<sub>2</sub>...x<sub>n</sub>)是R<sup>n</sup>的x=(x<sub>10</sub>,x<sub>20</sub>,...,x<sub>n0</sub>)的邻域上有定义的n元函数，若存在A使得
 
