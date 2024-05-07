@@ -375,3 +375,5 @@ $$\sum_{n=2}^{\infty} \frac{(-1)^n}{\sqrt{n}+(-1)^n}$$
 $$\frac{(-1)^n}{\sqrt{n}+(-1)^n}=\frac{(-1)^n[\sqrt{n}-(-1)^n]}{n-1}=(-1)^n\frac{\sqrt{n}}{n-1}-\frac{1}{n-1}$$
 
 </details>
+
+</font>
