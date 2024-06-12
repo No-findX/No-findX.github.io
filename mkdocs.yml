@@ -8,6 +8,7 @@ nav:
     - 多元函数: function.md
   - 普通物理学Ⅰ: physic.md
   - 计算机系统Ⅰ: computer_system.md
+  - 离散数学理论基础 : maths.md
 - 闲扯: something.md
 site_author: No-findX 
 theme :
